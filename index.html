@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Faruk Ozgu</title>
+    <!----Style CSS----->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&family=Oxygen&family=Pacifico&display=swap" rel="stylesheet">
+     <!--ScrollReveal-->
+     <script src="https://unpkg.com/scrollreveal"></script>
+     <!--Font Awesome-->
+     <script src="https://kit.fontawesome.com/47188b661d.js" crossorigin="anonymous"></script>
+     <!-----Favicon----->
+     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body>
+
+    <!----- HEADER ----->
+    <header>
+        <a href="#" class="logo">Faruk</a>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+           
+
+        </ul>
+    </header>
+
+    <!----- HOME ----->
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <h2><span>Hello</span> I'm</h2>
+            <h1>Faruk Ozgu</h1>
+            <h3>& I'm a Web Developer.</h3>
+            <a href="cv/farukozgu-CV-en.pdf" target="_blank" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="/img/profile.png" alt="">
+        </div>
+        <div class="scroll">
+            <p><i class="fa-solid fa-computer-mouse fa-xl"></i>Scroll down<i class="fa-solid fa-arrow-down"></i></p>
+        </div>
+    
+    </section>
+
+    <!----- ABOUT ME ----->
+
+    <article class="about">
+        <div class="about-img">
+            <img src="/img/art.png" alt="">
+        </div>
+        <div class="about-text" id="about">
+            <h3>ABOUT ME</h3>
+            <h2>I'm a Jr. Front-End Developer & UI-UX Designer.</h2>
+            <p>I'm from Turkey. I like to design UI & Websites.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/farukozgu/" target="_blank"><img src="/img/linkedin.png" alt=""></a>
+                <a href="https://github.com/Feanorel" target="_blank"><img src="/img/git.png" alt=""></a>
+                <a href="https://www.instagram.com/faruk.ozgu/" target="_blank"><img src="/img/insta.png" alt=""></a>
+            </div>
+        </div>
+    </article>
+
+    <section>
+
+    
+    <div class="portfolio" id="portfolio">
+        <div class="center">
+            <h3>Portfolio</h3>
+        </div>
+        <div class="content">
+            
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="/img/medium.png" alt="">
+                </div>
+                <div class="row-title">
+                <h3>Medium-Bootstrap Clone</h3>
+                <p>I cloned the design of Medium website via bootstrap.</p>
+                <a href="https://github.com/Feanorel/medium-bootstrap-clone" class="btn-white" target="_blank">Open in Github</a>
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="/img/dicee.png" alt="">
+                </div>
+                <div class="row-title">
+                <h3>dice-game-with-JS</h3>
+                <p>A simple dice game I designed with the Javascript.</p>
+                <a href="https://github.com/Feanorel/dice-game-JS" class="btn-white" target="_blank">Open in Github</a>
+            </div>
+    
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!----- Portfolio ----->
+
+
+
+    <!----- SCRIPTS ----->
+
+
+
+    <!----- Scroll Reveal ----->
+    <script>
+
+        ScrollReveal().reveal('header', { 
+            delay: 500,
+            origin: 'top',
+            distance: '200px',
+         });
+
+         ScrollReveal().reveal('.portfolio', { 
+            reset: true,
+            delay: 500,
+            origin: 'bottom',
+            distance: '400px',
+         });
+
+         ScrollReveal().reveal('.home', { 
+            reset: true,
+            duration: 1000,
+            delay: 400,
+            scale: 0.85,
+         });
+
+         ScrollReveal().reveal(".home-img", {
+            reset: true,
+            duration: 1000,
+            delay: 400,
+            scale: 0.85,
+            rotate: {
+                x: 10,
+                z: -5
+         }
+            }); 
+
+        ScrollReveal().reveal('.about-img', { 
+            reset: true,
+            delay: 500,
+            origin: 'left',
+            distance: '200px',
+         });
+
+         ScrollReveal().reveal('.about-text', { 
+            reset: true,
+            delay: 500,
+            origin: 'right',
+            distance: '200px',
+         });
+
+        ScrollReveal().reveal(".scroll", {
+            reset: true,
+            duration: 2000,
+            origin: "bottom",
+            distance: "400px",
+            easing: "cubic-bezier(0.5, 0, 0, 1)",
+    });
+
+        ScrollReveal().reveal('.portfolio', { 
+            reset: true,
+            delay: 500,
+            origin: 'bottom',
+            distance: '400px',
+         });
+    </script>
+
+</body>
+</html>

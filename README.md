@@ -1,6 +1,4 @@
-# my-own-portfolio
-
-# fully responsive portfolio website with HTML-CSS & Scroll Reveal
+# Fully responsive portfolio website with HTML-CSS & Scroll Reveal
 
 ## Preview
 ![Group 2](https://user-images.githubusercontent.com/101663533/190921374-ff8349f9-ca37-4146-8a84-78e1ef98f4ce.png)

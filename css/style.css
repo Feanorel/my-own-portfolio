@@ -204,7 +204,7 @@ header{
     margin: 0 0 30px;
 }
 
-.content a{
+.row-title a{
     background: var(--bg-color);
     padding: 0px 20px;
     font-size: 20px;
@@ -215,7 +215,7 @@ header{
     font-weight: 400;
     transition: ease all 0.4s;
 }
-.content a:hover{
+.row-title a:hover{
     transform: scale(1.1);
 }
 
@@ -262,6 +262,15 @@ header{
         --big-font: 4rem;
         --h2-font: 1.2rem;
     }
+
+    .row-title a{
+        padding: 0px 10px;
+        font-size: 16px;
+        line-height: 42px;
+    }
+    .row-img img {
+        width: 128px;
+    }
 }
 
 @media (max-width: 1020px) {
@@ -273,6 +282,22 @@ header{
     .home {
         height: 100vh;
     }
+
+    .row-title a{
+        padding: 0px 10px;
+        font-size: 14px;
+        line-height: 32px;
+    }
+
+    .row-title h3 {
+        font-size: 16px;
+    }
+
+    .row-title p {
+        font-size: 14px;
+    }
+
+  
 }
 
 @media (max-width: 800px){
